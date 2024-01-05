@@ -14,7 +14,7 @@ let lat=0;
 let lon=0;
 btn.addEventListener('click', () => {
 	let city = search.value;
-	fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=faf70f7374045db9ec71f5ecfdc10eb4`).then(response => response.json())
+	fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=faf70f7374045db9ec71f5ecfdc10eb4`).then(response => response.json())
 	.then(data => {
 		lat = data[0].lat;
 		lon = data[0].lon;
