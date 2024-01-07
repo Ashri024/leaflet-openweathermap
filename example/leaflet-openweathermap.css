@@ -2,14 +2,14 @@
 	padding: 0.5rem;
 	position: absolute;
     z-index: 9999;
-    left: 4%;
+    left: 100px;
     top: 2%;
 }
 #btn{
 	padding: 0.5rem;
     position: absolute;
     z-index: 9999;
-    left: 16%;
+    left: 290px;
     top: 2%;
 }
 .owm-icondiv {
